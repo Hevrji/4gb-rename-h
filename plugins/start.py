@@ -51,7 +51,7 @@ async def start(client, message):
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Unknown_X_Updates")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/Unknown_X_Leech),
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/Unknown_X_Leech'),
                                       InlineKeyboardButton("Contact Admin", url='https://t.me/maheshgreat')]
                                       ]))
         return
