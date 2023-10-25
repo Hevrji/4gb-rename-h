@@ -63,7 +63,7 @@ async def start(client, message):
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
                                              [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Unknown_X_Updates")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/Unknown_X_Leech),
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/Unknown_X_Leech'),
                                       InlineKeyboardButton("Contact Admin", url='https://t.me/maheshgreat')]
                                       ]))
             except:
@@ -81,7 +81,7 @@ async def start(client, message):
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/Unknown_X_Updates")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/Unknown_X_Leech),
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/Unknown_X_Leech'),
                                       InlineKeyboardButton("Contact Admin", url='https://t.me/maheshgreat')]
                                       ]))
     
@@ -121,8 +121,8 @@ async def send_doc(client, message):
         await message.reply_text(text=f"Hello dear {message.from_user.first_name}  **we are currently working on this issue**\n\nPlease try to rename files from your another account.\nBecause this BOT can't rename file sent by some ids.\n\nIf you are an **ADMIN** Don't worry ! here we have a solution for you dear {message.from_user.first_name }.\n\nPlease use \n👉 `/addpremium your_other_userid` 👈 to use premium feautres\n\n",
                                   reply_markup=InlineKeyboardMarkup([
                                                                      [InlineKeyboardButton("🦋 Contact Developer 🦋", url='https://telegram.me/maheshgreat')],
-                                                                     [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/UNKNOWN_X_UPDATES),
-                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/Unknown_X_Leech)],
+                                                                     [InlineKeyboardButton("🦋 Visit Channel  ", url='https://t.me/UNKNOWN_X_UPDATES'),
+                                                                     InlineKeyboardButton("  Support Group 🦋", url='https://t.me/Unknown_X_Leech')],
                                                                     ]))
         await message.reply_text(text=f"🦋")
         return 
